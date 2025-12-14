@@ -872,7 +872,7 @@ categories:
 
       scute:
         type: "NORMAL"
-        material: "SCUTE"
+        material: "TURTLE_SCUTE"
         name: "&aScute"
         lore: []
         buy-price: 200.0
