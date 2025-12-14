@@ -1,0 +1,1737 @@
+# QuickkShop - Shop Configuration
+categories:
+  ores:
+    name: "&b&lOres & Ingots"
+    icon: "DIAMOND"
+    slot: 10
+    items:
+      iron_ingot:
+        type: "NORMAL"
+        material: "IRON_INGOT"
+        name: "&fIron Ingot"
+        lore: []
+        buy-price: 500.0
+        sell-price: 8.0
+        slot: 10
+        amount: 64
+
+      gold_ingot:
+        type: "NORMAL"
+        material: "GOLD_INGOT"
+        name: "&6Gold Ingot"
+        lore: []
+        buy-price: 800.0
+        sell-price: 12.0
+        slot: 11
+        amount: 64
+
+      diamond:
+        type: "NORMAL"
+        material: "DIAMOND"
+        name: "&bDiamond"
+        lore: []
+        buy-price: 2000.0
+        sell-price: 15.0
+        slot: 12
+        amount: 64
+
+      emerald:
+        type: "NORMAL"
+        material: "EMERALD"
+        name: "&aEmerald"
+        lore: []
+        buy-price: 1800.0
+        sell-price: 16.0
+        slot: 13
+        amount: 64
+
+      netherite_scrap:
+        type: "NORMAL"
+        material: "NETHERITE_SCRAP"
+        name: "&5Netherite Scrap"
+        lore: []
+        buy-price: 5000.0
+        sell-price: 60.0
+        slot: 14
+        amount: 64
+      coal:
+        type: "NORMAL"
+        material: "COAL"
+        name: "&fCoal"
+        lore: []
+        buy-price: 150.0
+        sell-price: 1.0
+        slot: 15
+        amount: 64
+
+      lapis_lazuli:
+        type: "NORMAL"
+        material: "LAPIS_LAZULI"
+        name: "&9Lapis Lazuli"
+        lore: []
+        buy-price: 250.0
+        sell-price: 2.0
+        slot: 16
+        amount: 64
+
+      redstone:
+        type: "NORMAL"
+        material: "REDSTONE"
+        name: "&cRedstone"
+        lore: []
+        buy-price: 300.0
+        sell-price: 3.0
+        slot: 19
+        amount: 64
+
+      copper_ingot:
+        type: "NORMAL"
+        material: "COPPER_INGOT"
+        name: "&6Copper Ingot"
+        lore: []
+        buy-price: 200.0
+        sell-price: 1.5
+        slot: 20
+        amount: 64
+
+      quartz:
+        type: "NORMAL"
+        material: "QUARTZ"
+        name: "&fNether Quartz"
+        lore: []
+        buy-price: 400.0
+        sell-price: 4.0
+        slot: 21
+        amount: 64
+
+      # Raw ores
+      raw_iron:
+        type: "NORMAL"
+        material: "RAW_IRON"
+        name: "&fRaw Iron"
+        lore: []
+        buy-price: 450.0
+        sell-price: 7.0
+        slot: 22
+        amount: 64
+
+      raw_gold:
+        type: "NORMAL"
+        material: "RAW_GOLD"
+        name: "&6Raw Gold"
+        lore: []
+        buy-price: 750.0
+        sell-price: 11.0
+        slot: 23
+        amount: 64
+
+      raw_copper:
+        type: "NORMAL"
+        material: "RAW_COPPER"
+        name: "&6Raw Copper"
+        lore: []
+        buy-price: 180.0
+        sell-price: 1.3
+        slot: 24
+        amount: 64
+
+      ancient_debris:
+        type: "NORMAL"
+        material: "ANCIENT_DEBRIS"
+        name: "&5Ancient Debris"
+        lore: []
+        buy-price: 6000.0
+        sell-price: 55.0
+        slot: 25
+        amount: 16
+
+      amethyst_shard:
+        type: "NORMAL"
+        material: "AMETHYST_SHARD"
+        name: "&dAmethyst Shard"
+        lore: []
+        buy-price: 350.0
+        sell-price: 3.5
+        slot: 28
+        amount: 64
+
+      netherite_ingot:
+        type: "NORMAL"
+        material: "NETHERITE_INGOT"
+        name: "&5Netherite Ingot"
+        lore: []
+        buy-price: 25000.0
+        sell-price: 240.0
+        slot: 29
+        amount: 1
+
+  blocks:
+    name: "&e&lBlocks"
+    icon: "OAK_LOG"
+    slot: 11
+    items:
+      oak_log:
+        type: "NORMAL"
+        material: "OAK_LOG"
+        name: "&fOak Log"
+        lore: []
+        buy-price: 400.0
+        sell-price: 5.0
+        slot: 10
+        amount: 64
+
+      spruce_log:
+        type: "NORMAL"
+        material: "SPRUCE_LOG"
+        name: "&fSpruce Log"
+        lore: []
+        buy-price: 250.0
+        sell-price: 2.0
+        slot: 11
+        amount: 64
+
+      birch_log:
+        type: "NORMAL"
+        material: "BIRCH_LOG"
+        name: "&fBirch Log"
+        lore: []
+        buy-price: 250.0
+        sell-price: 2.0
+        slot: 12
+        amount: 64
+
+      jungle_log:
+        type: "NORMAL"
+        material: "JUNGLE_LOG"
+        name: "&fJungle Log"
+        lore: []
+        buy-price: 250.0
+        sell-price: 2.0
+        slot: 13
+        amount: 64
+
+      stone:
+        type: "NORMAL"
+        material: "STONE"
+        name: "&fStone"
+        lore: []
+        buy-price: 100.0
+        sell-price: 0.5
+        slot: 14
+        amount: 64
+
+      cobblestone:
+        type: "NORMAL"
+        material: "COBBLESTONE"
+        name: "&fCobblestone"
+        lore: []
+        buy-price: 80.0
+        sell-price: 0.3
+        slot: 15
+        amount: 64
+
+      dirt:
+        type: "NORMAL"
+        material: "DIRT"
+        name: "&fDirt"
+        lore: []
+        buy-price: 50.0
+        sell-price: 0.1
+        slot: 16
+        amount: 64
+
+      glass:
+        type: "NORMAL"
+        material: "GLASS"
+        name: "&fGlass"
+        lore: []
+        buy-price: 200.0
+        sell-price: 1.0
+        slot: 19
+        amount: 64
+
+      sandstone:
+        type: "NORMAL"
+        material: "SANDSTONE"
+        name: "&fSandstone"
+        lore: []
+        buy-price: 150.0
+        sell-price: 0.8
+        slot: 20
+        amount: 64
+
+      quartz_block:
+        type: "NORMAL"
+        material: "QUARTZ_BLOCK"
+        name: "&fQuartz Block"
+        lore: []
+        buy-price: 500.0
+        sell-price: 3.0
+        slot: 21
+        amount: 64
+
+      obsidian:
+        type: "NORMAL"
+        material: "OBSIDIAN"
+        name: "&5Obsidian"
+        lore: []
+        buy-price: 300.0
+        sell-price: 2.0
+        slot: 22
+        amount: 64
+
+      acacia_log:
+        type: "NORMAL"
+        material: "ACACIA_LOG"
+        name: "&fAcacia Log"
+        lore: []
+        buy-price: 250.0
+        sell-price: 2.0
+        slot: 23
+        amount: 64
+
+      dark_oak_log:
+        type: "NORMAL"
+        material: "DARK_OAK_LOG"
+        name: "&fDark Oak Log"
+        lore: []
+        buy-price: 250.0
+        sell-price: 2.0
+        slot: 24
+        amount: 64
+
+      mangrove_log:
+        type: "NORMAL"
+        material: "MANGROVE_LOG"
+        name: "&fMangrove Log"
+        lore: []
+        buy-price: 250.0
+        sell-price: 2.0
+        slot: 25
+        amount: 64
+
+      sand:
+        type: "NORMAL"
+        material: "SAND"
+        name: "&fsand"
+        lore: []
+        buy-price: 200.0
+        sell-price: 0.5
+        slot: 28
+        amount: 64
+
+      gravel:
+        type: "NORMAL"
+        material: "GRAVEL"
+        name: "&fGravel"
+        lore: []
+        buy-price: 200.0
+        sell-price: 1.0
+        slot: 29
+        amount: 64
+
+      basalt:
+        type: "NORMAL"
+        material: "BASALT"
+        name: "&7Basalt"
+        lore: []
+        buy-price: 200.0
+        sell-price: 0.5
+        slot: 30
+        amount: 64
+
+      nether_bricks:
+        type: "NORMAL"
+        material: "NETHER_BRICKS"
+        name: "&cNether Bricks"
+        lore: []
+        buy-price: 200.0
+        sell-price: 1.0
+        slot: 31
+        amount: 64
+
+      prismarine:
+        type: "NORMAL"
+        material: "PRISMARINE"
+        name: "&bPrismarine"
+        lore: []
+        buy-price: 350.0
+        sell-price: 2.5
+        slot: 32
+        amount: 64
+
+      end_stone:
+        type: "NORMAL"
+        material: "END_STONE"
+        name: "&eEnd Stone"
+        lore: []
+        buy-price: 400.0
+        sell-price: 3.0
+        slot: 33
+        amount: 64
+
+      blackstone:
+        type: "NORMAL"
+        material: "BLACKSTONE"
+        name: "&8Blackstone"
+        lore: []
+        buy-price: 250.0
+        sell-price: 1.8
+        slot: 34
+        amount: 64
+
+      deepslate:
+        type: "NORMAL"
+        material: "DEEPSLATE"
+        name: "&8Deepslate"
+        lore: []
+        buy-price: 180.0
+        sell-price: 1.2
+        slot: 37
+        amount: 64
+
+      terracotta:
+        type: "NORMAL"
+        material: "TERRACOTTA"
+        name: "&6Terracotta"
+        lore: []
+        buy-price: 150.0
+        sell-price: 1.0
+        slot: 38
+        amount: 64
+
+      brick:
+        type: "NORMAL"
+        material: "BRICKS"
+        name: "&cBricks"
+        lore: []
+        buy-price: 180.0
+        sell-price: 1.2
+        slot: 39
+        amount: 64
+
+      netherrack:
+        type: "NORMAL"
+        material: "NETHERRACK"
+        name: "&4Netherrack"
+        lore: []
+        buy-price: 80.0
+        sell-price: 0.5
+        slot: 40
+        amount: 64
+
+      ice:
+        type: "NORMAL"
+        material: "ICE"
+        name: "&bIce"
+        lore: []
+        buy-price: 120.0
+        sell-price: 0.8
+        slot: 41
+        amount: 64
+
+      packed_ice:
+        type: "NORMAL"
+        material: "PACKED_ICE"
+        name: "&bPacked Ice"
+        lore: []
+        buy-price: 250.0
+        sell-price: 1.5
+        slot: 42
+        amount: 64
+
+      blue_ice:
+        type: "NORMAL"
+        material: "BLUE_ICE"
+        name: "&9Blue Ice"
+        lore: []
+        buy-price: 500.0
+        sell-price: 3.0
+        slot: 43
+        amount: 64
+
+  farming:
+    name: "&a&lFarming"
+    icon: "WHEAT"
+    slot: 12
+    items:
+      wheat_seeds:
+        type: "NORMAL"
+        material: "WHEAT_SEEDS"
+        name: "&eWheat Seeds"
+        lore: []
+        buy-price: 20.0
+        sell-price: 0.05
+        slot: 10
+        amount: 64
+
+      wheat:
+        type: "NORMAL"
+        material: "WHEAT"
+        name: "&eWheat"
+        lore: []
+        buy-price: 50.0
+        sell-price: 0.3
+        slot: 11
+        amount: 64
+
+      beetroot_seeds:
+        type: "NORMAL"
+        material: "BEETROOT_SEEDS"
+        name: "&cBeetroot Seeds"
+        lore: []
+        buy-price: 20.0
+        sell-price: 0.05
+        slot: 12
+        amount: 64
+
+      beetroot:
+        type: "NORMAL"
+        material: "BEETROOT"
+        name: "&cBeetroot"
+        lore: []
+        buy-price: 40.0
+        sell-price: 0.2
+        slot: 13
+        amount: 64
+
+      carrot:
+        type: "NORMAL"
+        material: "CARROT"
+        name: "&6Carrot"
+        lore: []
+        buy-price: 30.0
+        sell-price: 0.1
+        slot: 14
+        amount: 64
+
+      potato:
+        type: "NORMAL"
+        material: "POTATO"
+        name: "&6Potato"
+        lore: []
+        buy-price: 30.0
+        sell-price: 0.1
+        slot: 15
+        amount: 64
+
+      pumpkin_seeds:
+        type: "NORMAL"
+        material: "PUMPKIN_SEEDS"
+        name: "&6Pumpkin Seeds"
+        lore: []
+        buy-price: 50.0
+        sell-price: 0.1
+        slot: 16
+        amount: 16
+
+      pumpkin:
+        type: "NORMAL"
+        material: "PUMPKIN"
+        name: "&6Pumpkin"
+        lore: []
+        buy-price: 80.0
+        sell-price: 0.5
+        slot: 19
+        amount: 16
+
+      melon_seeds:
+        type: "NORMAL"
+        material: "MELON_SEEDS"
+        name: "&cMelon Seeds"
+        lore: []
+        buy-price: 50.0
+        sell-price: 0.1
+        slot: 20
+        amount: 16
+
+      melon_slice:
+        type: "NORMAL"
+        material: "MELON_SLICE"
+        name: "&cMelon Slice"
+        lore: []
+        buy-price: 30.0
+        sell-price: 0.1
+        slot: 21
+        amount: 64
+
+      sugar_cane:
+        type: "NORMAL"
+        material: "SUGAR_CANE"
+        name: "&aSugar Cane"
+        lore: []
+        buy-price: 40.0
+        sell-price: 0.1
+        slot: 22
+        amount: 64
+
+      bamboo:
+        type: "NORMAL"
+        material: "BAMBOO"
+        name: "&aBamboo"
+        lore: []
+        buy-price: 35.0
+        sell-price: 0.08
+        slot: 23
+        amount: 64
+
+      cactus:
+        type: "NORMAL"
+        material: "CACTUS"
+        name: "&2Cactus"
+        lore: []
+        buy-price: 40.0
+        sell-price: 0.1
+        slot: 24
+        amount: 64
+
+      sweet_berries:
+        type: "NORMAL"
+        material: "SWEET_BERRIES"
+        name: "&cSweet Berries"
+        lore: []
+        buy-price: 30.0
+        sell-price: 0.1
+        slot: 25
+        amount: 64
+
+      glow_berries:
+        type: "NORMAL"
+        material: "GLOW_BERRIES"
+        name: "&eGlow Berries"
+        lore: []
+        buy-price: 60.0
+        sell-price: 0.2
+        slot: 28
+        amount: 64
+
+      bone_meal:
+        type: "NORMAL"
+        material: "BONE_MEAL"
+        name: "&fBone Meal"
+        lore: []
+        buy-price: 50.0
+        sell-price: 0.3
+        slot: 29
+        amount: 64
+
+      bread:
+        type: "NORMAL"
+        material: "BREAD"
+        name: "&eBread"
+        lore: []
+        buy-price: 40.0
+        sell-price: 0.5
+        slot: 30
+        amount: 16
+
+      cooked_beef:
+        type: "NORMAL"
+        material: "COOKED_BEEF"
+        name: "&fSteak"
+        lore: []
+        buy-price: 60.0
+        sell-price: 1.0
+        slot: 31
+        amount: 16
+
+      cooked_porkchop:
+        type: "NORMAL"
+        material: "COOKED_PORKCHOP"
+        name: "&fCooked Porkchop"
+        lore: []
+        buy-price: 60.0
+        sell-price: 1.0
+        slot: 32
+        amount: 16
+
+      cooked_chicken:
+        type: "NORMAL"
+        material: "COOKED_CHICKEN"
+        name: "&fCooked Chicken"
+        lore: []
+        buy-price: 50.0
+        sell-price: 0.8
+        slot: 33
+        amount: 16
+
+      baked_potato:
+        type: "NORMAL"
+        material: "BAKED_POTATO"
+        name: "&6Baked Potato"
+        lore: []
+        buy-price: 40.0
+        sell-price: 0.5
+        slot: 34
+        amount: 16
+
+      apple:
+        type: "NORMAL"
+        material: "APPLE"
+        name: "&cApple"
+        lore: []
+        buy-price: 30.0
+        sell-price: 0.3
+        slot: 37
+        amount: 16
+
+      oak_sapling:
+        type: "NORMAL"
+        material: "OAK_SAPLING"
+        name: "&2Oak Sapling"
+        lore: []
+        buy-price: 30.0
+        sell-price: 0.1
+        slot: 38
+        amount: 16
+
+      brown_mushroom:
+        type: "NORMAL"
+        material: "BROWN_MUSHROOM"
+        name: "&6Brown Mushroom"
+        lore: []
+        buy-price: 25.0
+        sell-price: 0.15
+        slot: 39
+        amount: 16
+
+      red_mushroom:
+        type: "NORMAL"
+        material: "RED_MUSHROOM"
+        name: "&cRed Mushroom"
+        lore: []
+        buy-price: 25.0
+        sell-price: 0.15
+        slot: 40
+        amount: 16
+
+  mob_drops:
+    name: "&c&lMob Drops"
+    icon: "ENDER_PEARL"
+    slot: 13
+    items:
+      bone:
+        type: "NORMAL"
+        material: "BONE"
+        name: "&fBone"
+        lore: []
+        buy-price: 80.0
+        sell-price: 0.5
+        slot: 10
+        amount: 16
+
+      string:
+        type: "NORMAL"
+        material: "STRING"
+        name: "&fString"
+        lore: []
+        buy-price: 100.0
+        sell-price: 0.8
+        slot: 11
+        amount: 16
+
+      gunpowder:
+        type: "NORMAL"
+        material: "GUNPOWDER"
+        name: "&fGunpowder"
+        lore: []
+        buy-price: 150.0
+        sell-price: 1.2
+        slot: 12
+        amount: 16
+
+      ender_pearl:
+        type: "NORMAL"
+        material: "ENDER_PEARL"
+        name: "&dEnder Pearl"
+        lore: []
+        buy-price: 800.0
+        sell-price: 6.0
+        slot: 13
+        amount: 8
+
+      slime_ball:
+        type: "NORMAL"
+        material: "SLIME_BALL"
+        name: "&aSlime Ball"
+        lore: []
+        buy-price: 200.0
+        sell-price: 1.5
+        slot: 14
+        amount: 16
+
+      blaze_rod:
+        type: "NORMAL"
+        material: "BLAZE_ROD"
+        name: "&6Blaze Rod"
+        lore: []
+        buy-price: 500.0
+        sell-price: 4.0
+        slot: 15
+        amount: 8
+
+      ghast_tear:
+        type: "NORMAL"
+        material: "GHAST_TEAR"
+        name: "&fGhast Tear"
+        lore: []
+        buy-price: 600.0
+        sell-price: 5.0
+        slot: 16
+        amount: 8
+
+      spider_eye:
+        type: "NORMAL"
+        material: "SPIDER_EYE"
+        name: "&fSpider Eye"
+        lore: []
+        buy-price: 50.0
+        sell-price: 0.4
+        slot: 19
+        amount: 16
+
+      rotten_flesh:
+        type: "NORMAL"
+        material: "ROTTEN_FLESH"
+        name: "&fRotten Flesh"
+        lore: []
+        buy-price: 30.0
+        sell-price: 0.1
+        slot: 20
+        amount: 16
+
+      leather:
+        type: "NORMAL"
+        material: "LEATHER"
+        name: "&fLeather"
+        lore: []
+        buy-price: 120.0
+        sell-price: 0.8
+        slot: 21
+        amount: 16
+
+      phantom_membrane:
+        type: "NORMAL"
+        material: "PHANTOM_MEMBRANE"
+        name: "&bPhantom Membrane"
+        lore: []
+        buy-price: 400.0
+        sell-price: 3.0
+        slot: 22
+        amount: 8
+
+      prismarine_shard:
+        type: "NORMAL"
+        material: "PRISMARINE_SHARD"
+        name: "&bPrismarine Shard"
+        lore: []
+        buy-price: 300.0
+        sell-price: 2.5
+        slot: 23
+        amount: 16
+
+      feather:
+        type: "NORMAL"
+        material: "FEATHER"
+        name: "&fFeather"
+        lore: []
+        buy-price: 40.0
+        sell-price: 0.3
+        slot: 24
+        amount: 16
+
+      ink_sac:
+        type: "NORMAL"
+        material: "INK_SAC"
+        name: "&8Ink Sac"
+        lore: []
+        buy-price: 80.0
+        sell-price: 0.6
+        slot: 25
+        amount: 16
+
+      rabbit_hide:
+        type: "NORMAL"
+        material: "RABBIT_HIDE"
+        name: "&fRabbit Hide"
+        lore: []
+        buy-price: 60.0
+        sell-price: 0.5
+        slot: 28
+        amount: 16
+
+      rabbit_foot:
+        type: "NORMAL"
+        material: "RABBIT_FOOT"
+        name: "&fRabbit's Foot"
+        lore: []
+        buy-price: 250.0
+        sell-price: 2.0
+        slot: 29
+        amount: 8
+
+      scute:
+        type: "NORMAL"
+        material: "SCUTE"
+        name: "&aScute"
+        lore: []
+        buy-price: 200.0
+        sell-price: 1.5
+        slot: 30
+        amount: 8
+
+      nautilus_shell:
+        type: "NORMAL"
+        material: "NAUTILUS_SHELL"
+        name: "&bNautilus Shell"
+        lore: []
+        buy-price: 500.0
+        sell-price: 4.0
+        slot: 31
+        amount: 8
+
+      prismarine_crystals:
+        type: "NORMAL"
+        material: "PRISMARINE_CRYSTALS"
+        name: "&bPrismarine Crystals"
+        lore: []
+        buy-price: 350.0
+        sell-price: 2.8
+        slot: 32
+        amount: 16
+
+      magma_cream:
+        type: "NORMAL"
+        material: "MAGMA_CREAM"
+        name: "&6Magma Cream"
+        lore: []
+        buy-price: 250.0
+        sell-price: 2.0
+        slot: 33
+        amount: 16
+
+      nether_wart:
+        type: "NORMAL"
+        material: "NETHER_WART"
+        name: "&4Nether Wart"
+        lore: []
+        buy-price: 150.0
+        sell-price: 1.2
+        slot: 34
+        amount: 16
+
+      shulker_shell:
+        type: "NORMAL"
+        material: "SHULKER_SHELL"
+        name: "&dShulker Shell"
+        lore: []
+        buy-price: 1000.0
+        sell-price: 8.0
+        slot: 37
+        amount: 1
+
+      dragon_breath:
+        type: "NORMAL"
+        material: "DRAGON_BREATH"
+        name: "&dDragon's Breath"
+        lore: []
+        buy-price: 2000.0
+        sell-price: 15.0
+        slot: 38
+        amount: 1
+
+      disc_fragment:
+        type: "NORMAL"
+        material: "DISC_FRAGMENT_5"
+        name: "&bDisc Fragment"
+        lore: []
+        buy-price: 3000.0
+        sell-price: 25.0
+        slot: 39
+        amount: 1
+
+  misc:
+    name: "&d&lMisc"
+    icon: "TOTEM_OF_UNDYING"
+    slot: 14
+    items:
+      totem_of_undying:
+        type: "NORMAL"
+        material: "TOTEM_OF_UNDYING"
+        name: "&6Totem of Undying"
+        lore: []
+        buy-price: 50000.0
+        sell-price: 1000.0
+        slot: 10
+        amount: 1
+
+      netherite_upgrade_smithing_template:
+        type: "NORMAL"
+        material: "NETHERITE_UPGRADE_SMITHING_TEMPLATE"
+        name: "&5Netherite Upgrade Template"
+        lore: []
+        buy-price: 75000.0
+        sell-price: 15000.0
+        slot: 11
+        amount: 1
+
+      elytra:
+        type: "NORMAL"
+        material: "ELYTRA"
+        name: "&dElytra"
+        lore: []
+        buy-price: 200000.0
+        sell-price: 40000.0
+        slot: 12
+        amount: 1
+
+      nether_star:
+        type: "NORMAL"
+        material: "NETHER_STAR"
+        name: "&fNether Star"
+        lore: []
+        buy-price: 150000.0
+        sell-price: 30000.0
+        slot: 13
+        amount: 1
+
+      dragon_head:
+        type: "NORMAL"
+        material: "DRAGON_HEAD"
+        name: "&5Dragon Head"
+        lore: []
+        buy-price: 80000.0
+        sell-price: 16000.0
+        slot: 14
+        amount: 1
+
+      trident:
+        type: "NORMAL"
+        material: "TRIDENT"
+        name: "&bTrident"
+        lore: []
+        buy-price: 50000.0
+        sell-price: 10000.0
+        slot: 15
+        amount: 1
+
+      shulker_box:
+        type: "NORMAL"
+        material: "SHULKER_BOX"
+        name: "&dShulker Box"
+        lore: []
+        buy-price: 2100.0
+        sell-price: 1900.0
+        slot: 16
+        amount: 1
+
+      heart_of_the_sea:
+        type: "NORMAL"
+        material: "HEART_OF_THE_SEA"
+        name: "&bHeart of the Sea"
+        lore: []
+        buy-price: 40000.0
+        sell-price: 8000.0
+        slot: 19
+        amount: 1
+
+      echo_shard:
+        type: "NORMAL"
+        material: "ECHO_SHARD"
+        name: "&8Echo Shard"
+        lore: []
+        buy-price: 15000.0
+        sell-price: 3000.0
+        slot: 20
+        amount: 1
+
+      experience_bottle:
+        type: "NORMAL"
+        material: "EXPERIENCE_BOTTLE"
+        name: "&aBottle o' Enchanting"
+        lore: []
+        buy-price: 200.0
+        sell-price: 1.0
+        slot: 21
+        amount: 16
+
+      ender_chest:
+        type: "NORMAL"
+        material: "ENDER_CHEST"
+        name: "&5Ender Chest"
+        lore: []
+        buy-price: 5000.0
+        sell-price: 1000.0
+        slot: 22
+        amount: 1
+
+      beacon:
+        type: "NORMAL"
+        material: "BEACON"
+        name: "&bBeacon"
+        lore: []
+        buy-price: 200000.0
+        sell-price: 40000.0
+        slot: 23
+        amount: 1
+
+      conduit:
+        type: "NORMAL"
+        material: "CONDUIT"
+        name: "&bConduit"
+        lore: []
+        buy-price: 50000.0
+        sell-price: 10000.0
+        slot: 24
+        amount: 1
+
+      enchanting_table:
+        type: "NORMAL"
+        material: "ENCHANTING_TABLE"
+        name: "&5Enchanting Table"
+        lore: []
+        buy-price: 5000.0
+        sell-price: 1000.0
+        slot: 25
+        amount: 1
+
+      anvil:
+        type: "NORMAL"
+        material: "ANVIL"
+        lore: []
+        name: "&fAnvil"
+        buy-price: 2500.0
+        sell-price: 500.0
+        slot: 28
+        amount: 1
+
+      brewing_stand:
+        type: "NORMAL"
+        material: "BREWING_STAND"
+        name: "&6Brewing Stand"
+        lore: []
+        buy-price: 3000.0
+        sell-price: 600.0
+        slot: 29
+        amount: 1
+
+      chest:
+        type: "NORMAL"
+        material: "CHEST"
+        name: "&6Chest"
+        lore: []
+        buy-price: 100.0
+        sell-price: 10.0
+        slot: 30
+        amount: 1
+
+      barrel:
+        type: "NORMAL"
+        material: "BARREL"
+        name: "&6Barrel"
+        lore: []
+        buy-price: 150.0
+        sell-price: 15.0
+        slot: 31
+        amount: 1
+
+      hopper:
+        type: "NORMAL"
+        material: "HOPPER"
+        name: "&7Hopper"
+        lore: []
+        buy-price: 800.0
+        sell-price: 100.0
+        slot: 32
+        amount: 1
+
+      furnace:
+        type: "NORMAL"
+        material: "FURNACE"
+        name: "&7Furnace"
+        lore: []
+        buy-price: 200.0
+        sell-price: 20.0
+        slot: 33
+        amount: 1
+
+      blast_furnace:
+        type: "NORMAL"
+        material: "BLAST_FURNACE"
+        name: "&7Blast Furnace"
+        lore: []
+        buy-price: 500.0
+        sell-price: 50.0
+        slot: 34
+        amount: 1
+
+      smoker:
+        type: "NORMAL"
+        material: "SMOKER"
+        name: "&7Smoker"
+        lore: []
+        buy-price: 500.0
+        sell-price: 50.0
+        slot: 37
+        amount: 1
+
+      crafting_table:
+        type: "NORMAL"
+        material: "CRAFTING_TABLE"
+        name: "&6Crafting Table"
+        lore: []
+        buy-price: 50.0
+        sell-price: 5.0
+        slot: 38
+        amount: 1
+
+      name_tag:
+        type: "NORMAL"
+        material: "NAME_TAG"
+        name: "&eName Tag"
+        lore: []
+        buy-price: 5000.0
+        sell-price: 500.0
+        slot: 39
+        amount: 1
+
+      saddle:
+        type: "NORMAL"
+        material: "SADDLE"
+        name: "&6Saddle"
+        lore: []
+        buy-price: 3000.0
+        sell-price: 300.0
+        slot: 40
+        amount: 1
+
+      lead:
+        type: "NORMAL"
+        material: "LEAD"
+        name: "&7Lead"
+        lore: []
+        buy-price: 500.0
+        sell-price: 50.0
+        slot: 41
+        amount: 4
+
+      bed:
+        type: "NORMAL"
+        material: "RED_BED"
+        name: "&cBed"
+        lore: []
+        buy-price: 300.0
+        sell-price: 30.0
+        slot: 42
+        amount: 1
+
+      respawn_anchor:
+        type: "NORMAL"
+        material: "RESPAWN_ANCHOR"
+        name: "&5Respawn Anchor"
+        lore: []
+        buy-price: 10000.0
+        sell-price: 1000.0
+        slot: 43
+        amount: 1
+
+  spawners:
+    name: "&d&lSpawners"
+    icon: "SPAWNER"
+    slot: 15
+    items:
+      rabbit_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "rabbit"
+        name: ""
+        lore: []
+        buy-price: 50000.0
+        sell-price: -1
+        slot: 10
+        amount: 1
+
+      cod_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "cod"
+        name: ""
+        lore: []
+        buy-price: 100000.0
+        sell-price: -1
+        slot: 11
+        amount: 1
+
+      salmon_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "salmon"
+        name: ""
+        lore: []
+        buy-price: 100000.0
+        sell-price: -1
+        slot: 12
+        amount: 1
+
+      pufferfish_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "pufferfish"
+        name: ""
+        lore: []
+        buy-price: 100000.0
+        sell-price: -1
+        slot: 13
+        amount: 1
+
+      chicken_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "chicken"
+        name: ""
+        lore: []
+        buy-price: 125000.0
+        sell-price: -1
+        slot: 14
+        amount: 1
+
+      cow_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "cow"
+        name: ""
+        lore: []
+        buy-price: 125000.0
+        sell-price: -1
+        slot: 15
+        amount: 1
+
+      pig_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "pig"
+        name: ""
+        lore: []
+        buy-price: 125000.0
+        sell-price: -1
+        slot: 16
+        amount: 1
+
+      sheep_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "sheep"
+        name: ""
+        lore: []
+        buy-price: 125000.0
+        sell-price: -1
+        slot: 19
+        amount: 1
+
+      tropical_fish_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "tropical_fish"
+        name: ""
+        lore: []
+        buy-price: 125000.0
+        sell-price: -1
+        slot: 20
+        amount: 1
+
+      mooshroom_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "mooshroom"
+        name: ""
+        lore: []
+        buy-price: 175000.0
+        sell-price: -1
+        slot: 21
+        amount: 1
+
+      husk_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "husk"
+        name: ""
+        lore: []
+        buy-price: 200000.0
+        sell-price: -1
+        slot: 22
+        amount: 1
+
+      zombie_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "zombie"
+        name: ""
+        lore: []
+        buy-price: 250000.0
+        sell-price: -1
+        slot: 23
+        amount: 1
+
+      cave_spider_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "cave_spider"
+        name: ""
+        lore: []
+        buy-price: 250000.0
+        sell-price: -1
+        slot: 24
+        amount: 1
+
+      spider_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "spider"
+        name: ""
+        lore: []
+        buy-price: 250000.0
+        sell-price: -1
+        slot: 25
+        amount: 1
+
+      skeleton_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "skeleton"
+        name: ""
+        lore: []
+        buy-price: 300000.0
+        sell-price: -1
+        slot: 28
+        amount: 1
+
+      drowned_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "drowned"
+        name: ""
+        lore: []
+        buy-price: 400000.0
+        sell-price: -1
+        slot: 29
+        amount: 1
+
+      slime_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "slime"
+        name: ""
+        lore: []
+        buy-price: 450000.0
+        sell-price: -1
+        slot: 30
+        amount: 1
+
+      creeper_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "creeper"
+        name: ""
+        lore: []
+        buy-price: 450000.0
+        sell-price: -1
+        slot: 31
+        amount: 1
+
+      blaze_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "blaze"
+        name: ""
+        lore: []
+        buy-price: 600000.0
+        sell-price: -1
+        slot: 32
+        amount: 1
+
+      enderman_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "enderman"
+        name: ""
+        lore: []
+        buy-price: 800000.0
+        sell-price: -1
+        slot: 33
+        amount: 1
+
+      phantom_spawner:
+        type: "AXSPAWNER"
+        material: "SPAWNER"
+        axspawner-id: "phantom"
+        name: ""
+        lore: []
+        buy-price: 1000000.0
+        sell-price: -1
+        slot: 34
+        amount: 1
+
+  redstone:
+    name: "&c&lRedstone"
+    icon: "REDSTONE"
+    slot: 16
+    items:
+      redstone_torch:
+        type: "NORMAL"
+        material: "REDSTONE_TORCH"
+        name: "&cRedstone Torch"
+        lore: []
+        buy-price: 50.0
+        sell-price: 5.0
+        slot: 10
+        amount: 16
+
+      repeater:
+        type: "NORMAL"
+        material: "REPEATER"
+        name: "&cRepeater"
+        lore: []
+        buy-price: 100.0
+        sell-price: 10.0
+        slot: 11
+        amount: 8
+
+      comparator:
+        type: "NORMAL"
+        material: "COMPARATOR"
+        name: "&cComparator"
+        lore: []
+        buy-price: 150.0
+        sell-price: 15.0
+        slot: 12
+        amount: 8
+
+      piston:
+        type: "NORMAL"
+        material: "PISTON"
+        name: "&7Piston"
+        lore: []
+        buy-price: 200.0
+        sell-price: 20.0
+        slot: 13
+        amount: 8
+
+      sticky_piston:
+        type: "NORMAL"
+        material: "STICKY_PISTON"
+        name: "&aStickyPiston"
+        lore: []
+        buy-price: 250.0
+        sell-price: 25.0
+        slot: 14
+        amount: 8
+
+      observer:
+        type: "NORMAL"
+        material: "OBSERVER"
+        name: "&7Observer"
+        lore: []
+        buy-price: 300.0
+        sell-price: 30.0
+        slot: 15
+        amount: 8
+
+      dispenser:
+        type: "NORMAL"
+        material: "DISPENSER"
+        name: "&7Dispenser"
+        lore: []
+        buy-price: 200.0
+        sell-price: 20.0
+        slot: 16
+        amount: 8
+
+      dropper:
+        type: "NORMAL"
+        material: "DROPPER"
+        name: "&7Dropper"
+        lore: []
+        buy-price: 200.0
+        sell-price: 20.0
+        slot: 19
+        amount: 8
+
+      lever:
+        type: "NORMAL"
+        material: "LEVER"
+        name: "&6Lever"
+        lore: []
+        buy-price: 25.0
+        sell-price: 2.0
+        slot: 20
+        amount: 16
+
+      button:
+        type: "NORMAL"
+        material: "STONE_BUTTON"
+        name: "&7Stone Button"
+        lore: []
+        buy-price: 20.0
+        sell-price: 2.0
+        slot: 21
+        amount: 16
+
+      pressure_plate:
+        type: "NORMAL"
+        material: "STONE_PRESSURE_PLATE"
+        name: "&7Stone Pressure Plate"
+        lore: []
+        buy-price: 30.0
+        sell-price: 3.0
+        slot: 22
+        amount: 16
+
+      tripwire_hook:
+        type: "NORMAL"
+        material: "TRIPWIRE_HOOK"
+        name: "&6Tripwire Hook"
+        lore: []
+        buy-price: 100.0
+        sell-price: 10.0
+        slot: 23
+        amount: 8
+
+      target:
+        type: "NORMAL"
+        material: "TARGET"
+        name: "&cTarget Block"
+        lore: []
+        buy-price: 150.0
+        sell-price: 15.0
+        slot: 24
+        amount: 8
+
+      redstone_lamp:
+        type: "NORMAL"
+        material: "REDSTONE_LAMP"
+        name: "&eRedstone Lamp"
+        lore: []
+        buy-price: 200.0
+        sell-price: 20.0
+        slot: 25
+        amount: 8
+
+      note_block:
+        type: "NORMAL"
+        material: "NOTE_BLOCK"
+        name: "&6Note Block"
+        lore: []
+        buy-price: 100.0
+        sell-price: 10.0
+        slot: 28
+        amount: 8
+
+      jukebox:
+        type: "NORMAL"
+        material: "JUKEBOX"
+        name: "&6Jukebox"
+        lore: []
+        buy-price: 500.0
+        sell-price: 50.0
+        slot: 29
+        amount: 1
+
+      daylight_detector:
+        type: "NORMAL"
+        material: "DAYLIGHT_DETECTOR"
+        name: "&6Daylight Detector"
+        lore: []
+        buy-price: 300.0
+        sell-price: 30.0
+        slot: 30
+        amount: 4
+
+      lightning_rod:
+        type: "NORMAL"
+        material: "LIGHTNING_ROD"
+        name: "&6Lightning Rod"
+        lore: []
+        buy-price: 400.0
+        sell-price: 40.0
+        slot: 31
+        amount: 4
+
+      rail:
+        type: "NORMAL"
+        material: "RAIL"
+        name: "&7Rail"
+        lore: []
+        buy-price: 50.0
+        sell-price: 5.0
+        slot: 32
+        amount: 16
+
+      powered_rail:
+        type: "NORMAL"
+        material: "POWERED_RAIL"
+        name: "&6Powered Rail"
+        lore: []
+        buy-price: 100.0
+        sell-price: 10.0
+        slot: 33
+        amount: 16
+
+      detector_rail:
+        type: "NORMAL"
+        material: "DETECTOR_RAIL"
+        name: "&cDetector Rail"
+        lore: []
+        buy-price: 80.0
+        sell-price: 8.0
+        slot: 34
+        amount: 16
+
+      activator_rail:
+        type: "NORMAL"
+        material: "ACTIVATOR_RAIL"
+        name: "&cActivator Rail"
+        lore: []
+        buy-price: 80.0
+        sell-price: 8.0
+        slot: 37
+        amount: 16
+
+      minecart:
+        type: "NORMAL"
+        material: "MINECART"
+        name: "&7Minecart"
+        lore: []
+        buy-price: 300.0
+        sell-price: 30.0
+        slot: 38
+        amount: 1
+
+      tnt_minecart:
+        type: "NORMAL"
+        material: "TNT_MINECART"
+        name: "&cTNT Minecart"
+        lore: []
+        buy-price: 500.0
+        sell-price: 50.0
+        slot: 39
+        amount: 1
+
+      hopper_minecart:
+        type: "NORMAL"
+        material: "HOPPER_MINECART"
+        name: "&7Hopper Minecart"
+        lore: []
+        buy-price: 800.0
+        sell-price: 80.0
+        slot: 40
+        amount: 1
+
+      tnt:
+        type: "NORMAL"
+        material: "TNT"
+        name: "&cTNT"
+        lore: []
+        buy-price: 300.0
+        sell-price: 30.0
+        slot: 41
+        amount: 8
