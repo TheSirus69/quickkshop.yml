@@ -1127,7 +1127,7 @@ categories:
         material: "SHULKER_SHELL"
         name: "&dShulker Shell"
         lore: []
-        buy-price: 250.0
+        buy-price: 1000.0
         sell-price: 30.0
         slot: 37
         amount: 1
